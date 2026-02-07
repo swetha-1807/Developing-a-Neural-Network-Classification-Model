@@ -11,25 +11,33 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
-Include the neural network model diagram.
+
+<img width="714" height="888" alt="Screenshot 2026-02-06 191644" src="https://github.com/user-attachments/assets/9af24b9d-f437-4adc-96a4-261fa2824831" />
+
 
 ## DESIGN STEPS
 
-### STEP 1: The customer dataset is loaded and cleaned by removing unwanted columns and handling missing values.
+### STEP 1: 
+The customer dataset is loaded and cleaned by removing unwanted columns and handling missing values.
 
 
-### STEP 2: Split the dataset into training and testing sets and normalize feature values to improve learning.
+### STEP 2:
+Split the dataset into training and testing sets and normalize feature values to improve learning.
 
 
-### STEP 3: Convert the processed data into PyTorch tensors and use DataLoaders for efficient batch training.
+### STEP 3: 
+Convert the processed data into PyTorch tensors and use DataLoaders for efficient batch training.
 
 
-### STEP 4: Define a feedforward neural network with multiple hidden layers and ReLU activation functions.
+### STEP 4: 
+Define a feedforward neural network with multiple hidden layers and ReLU activation functions.
 
 
-### STEP 5: Train the model using CrossEntropy loss and Adam optimizer with backpropagation.
+### STEP 5: 
+Train the model using CrossEntropy loss and Adam optimizer with backpropagation.
 
-### STEP 6: Evaluate the trained model using accuracy and confusion matrix and predict customer segments.
+### STEP 6: 
+Evaluate the trained model using accuracy and confusion matrix and predict customer segments.
 
 ## PROGRAM
 
